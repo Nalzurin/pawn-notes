@@ -33,7 +33,7 @@ namespace PawnNotes
             {
                 Find.WindowStack.Add(new Dialog_EditPawnNote(comp));
             }
-            TooltipHandler.TipRegion(rect5, comp.noteText.NullOrEmpty()? "NoteTip".Translate() : comp.noteText + "\n" + "NoteTip".Translate());
+            TooltipHandler.TipRegion(rect5, comp.noteText.NullOrEmpty()? "NoteTip".Translate() : comp.noteText + "\n\n" + "NoteTipParenthesis".Translate());
         }
     }
 

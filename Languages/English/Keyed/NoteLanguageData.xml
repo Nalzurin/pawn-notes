@@ -2,5 +2,7 @@
 
 <LanguageData>
   <NoteTip>Click to edit pawn notes.</NoteTip>
+  <NoteTipParenthesis>(click to edit pawn notes)</NoteTipParenthesis>
   <EditNote>Edit note.</EditNote>
+
 </LanguageData>
